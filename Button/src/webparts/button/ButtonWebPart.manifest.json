@@ -1,0 +1,31 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx/client-side-web-part-manifest.schema.json",
+  "id": "88fd1055-3013-404f-95f1-e19bab47b78b",
+  "alias": "ButtonWebPart",
+  "componentType": "WebPart",
+
+ 
+  "version": "*",
+  "manifestVersion": 2,
+
+ 
+  "requiresCustomScript": false,
+  "supportedHosts": ["SharePointWebPart"],
+
+  "preconfiguredEntries": [{
+    "groupId": "5c03119e-3074-46fd-976b-c60198311f70", 
+    "group": { "default": "Other" },
+    "title": { "default": "Button" },
+    "description": { "default": "Button description" },
+    "officeFabricIconFontName": "Page",
+    "properties": {
+      "description": "Button 1",
+      "context": "Registering for class",
+      "step": "English class ",
+      "name": "Register1",
+      "path": "/sites/lmvtech/Certificates/_Templates/Course_Template.docx",
+      "destination": "/sites/lmvtech/Certificates/Documents/Course_Template.docx"
+
+    }
+  }]
+}
